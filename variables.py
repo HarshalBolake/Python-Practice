@@ -99,3 +99,14 @@ numbers = [1, 2, 3]
 numbers[0] = 100
 #numbers = [100, 2, 3]
 
+
+
+#Data types
+# int = 10
+# float = 10.5
+# str = "Hello"
+# bool = True, False
+# list = [1,2,3]
+# tuple = (1,2,3)
+# dict = {"a":1, "b":2}
+# set = {1,2,3}
