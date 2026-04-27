@@ -68,58 +68,96 @@
 
 
 
-# Loops
-# range(start, stop, range)
+# # Loops
+# # range(start, stop, range)
+# for i in range(3):
+#     print("Hello")
+
+
+# #types: for loop, while loop
+# for i in range(4):
+#     print(i)
+
+# for i in range(1,10,2):
+#     print("Numbers:",i)
+
+
+
+
+# #loop through list
+# fruits = ["apple", "banana", "mango", "orange"]
+
+# for fruit in fruits:
+#     print(fruit)
+
+
+# #while loops
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i+=1
+
+
+# #break
+# for i in range(20):
+#     if i == 5: 
+#         break
+#     # print(i)
+
+
+# #continue
+# for i in range(10):
+#     if i == 5:
+#         continue
+#     # print(i)
+
+
+#pass
+for i in range(5):
+    if i == 2:
+        pass
+    print(i)
+
+
+
+
+# #else with loop (runs when loop finish)
+# for i in range(3):
+#     print(i)
+# else:
+#     print("Done")
+
+
+
+
+#nested loops
 for i in range(3):
-    print("Hello")
+    for j in range(3):
+        print(i,j)
 
 
-#types: for loop, while loop
-for i in range(4):
-    print(i)
-
-for i in range(1,10,2):
-    print("Numbers:",i)
-
+#Example1
+total = 0
+for i in range(1,6):
+    total += i
+print("sum:",total)
 
 
-
-#loop through list
-fruits = ["apple", "banana", "mango", "orange"]
-
-for fruit in fruits:
-    print(fruit)
+#Example2
+for i in range(1,10):
+    if i % 2 == 0:
+        print(i) 
 
 
-#while loops
-i = 1
-while i <= 5:
-    print(i)
-    i+=1
+#Example3
+secret = 5
+while True:
+    guess = int(input("Guess number: "))
 
-
-#break
-for i in range(20):
-    if i == 5: 
+    if guess == secret:
+        print("Correct")
         break
-    # print(i)
-
-
-#Continue
-for i in range(10):
-    if i == 5:
-        continue
-    # print(i)
-
-
-
-#else with loop (runs when loop finish)
-for i in range(3):
-    print(i)
-else:
-    print("Done")
-
-
-
+    else:
+        print("Try again")
 
 
