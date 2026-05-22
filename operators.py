@@ -69,5 +69,9 @@ c = [2, 3]
 print(a is b)
 print(b is c)
 
+first = "Harsha"
+second = "Harshal"
+print(first is second)
+
 
 

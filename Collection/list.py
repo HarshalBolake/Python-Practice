@@ -1,19 +1,19 @@
 numbers = [1,2,3,4]      #numbers list
-names = ["Harshal","John","Tom","Jack"] #string list
+name = ["Harshal","John","Tom","Jack"] #string list
 mixed = [1,"hello", True]      #mixed list
 
 
 print(numbers[2])
-print(names[0])
+print(name[0])
 print(mixed[2])
 
 
 #Accesing data
-names[2] = "Jerry"
-print(names)
+name[2] = "Jerry"
+print(name)
 
 #slicing same as string slicing
-print(names[::-1]) #Reverse
+print(name[::-1]) #Reverse
 
 
 #creating new list from list
