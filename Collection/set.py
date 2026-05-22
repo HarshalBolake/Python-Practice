@@ -36,5 +36,24 @@ print(myset)
 myset.clear()
 print(myset)
 
-del myset
+
+#special methods
+A = {1,2,3,4,5}
+B = {4,5,6,7,8}
+
+#intersection
+print(A.intersection(B))
+
+#difference
+print(A.difference(B))
+
+#union
+print(A.union(B))
+
+#ymmetric difference
+print(A.symmetric_difference(B))
+
+
+
+# del myset
 # print(myset)
