@@ -57,3 +57,10 @@ print(A.symmetric_difference(B))
 
 # del myset
 # print(myset)
+
+
+#loop through set
+thisset = {"Ford","Hyundai","Farrari","BMW"}
+for x in thisset:
+    if(x is "Ford"):
+        print("Ford Mustang")
