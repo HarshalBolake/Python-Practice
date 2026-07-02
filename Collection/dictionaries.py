@@ -91,7 +91,8 @@ family = {
 
 print(family["child1"]["name"])
 
-for x, obj in family.items():
+print("Hello")
+for x, y in family.items():
     print(x)
-    for y in obj:
-        print(y+":",obj[y])
+    for i in y:
+        print(i+":",y[i])
