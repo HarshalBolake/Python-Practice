@@ -1,0 +1,9 @@
+{
+  "name": "Harshal",
+  "age": 22,
+  "course": "Msc Software Engineering",
+  "skills": [
+    "Python",
+    "SQL"
+  ]
+}
